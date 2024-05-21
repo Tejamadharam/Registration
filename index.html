@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet"href="style.css" type="text/css">
+</head>
+<body>
+    <div class="main">
+    <div class="Registration">    
+    <form id="register" method="post">
+    <h1>Registration</h1>
+  <label> <b>Name</b></label><br>
+  <input type="text" name="fname" id="name" placeholder="Enter your Name"><br>
+    <label><b>password</b></label><br>
+    <input type="password" name="password" id="name" placeholder="Enter your password"><br>
+    <label><b>your Age</b></label><br>
+    <input type="number" name="Age" id="name" placeholder="How old are you?"><br>
+    <label><b>Email</b></label><br>
+    <input type="email" name="email" id="name" placeholder="Enter your valid Email"><br>
+    <label><b>Gender</b></label><br>
+    <input type="radio" name="gender" id="Male">Male<br>
+    <input type="radio" name="gender" id="Female">Female<br>
+    <label><b>Hobbies</b></label><br>
+    <input type="checkbox" name="read">Reading<br>
+    <input type="checkbox" name="play">Playing<br>
+    <input type="checkbox" name="garden">Gardening<br>
+    <label><b>State</b></label><br><select>
+        <option>Select State</option>
+        <option>Telangana</option>
+        <option>Andhra pradesh</option>
+    </select><br>
+    <label><b>Achievements</b></label><br>
+    <textarea rows="5" cols="10">your Achievements</textarea><br>
+    <label><b>Resume</b></label><br>
+    <input type="file" value="upload"><br>
+    <input type="submit" value="submit" name="submit" id="submit"><br>
+    <input type="reset" value="reset" name="reset" id="reset">
+</form>
+</div>
+</div>
+</body>
+</html>
